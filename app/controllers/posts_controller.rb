@@ -7,6 +7,15 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
+  def upload_from_nyt
+    response = HTTParty.get('https://api.nytimes.com/svc/books/v3/lists.json?list=paperback-nonfiction&api-key=Gl45W6AShnATRDWJbygA1ZYGqetQYoQp')
+    json = JSON.parse(response.body)
+    json['results'].each do |book|
+      Post.find_or_create_by(title: book['book_details'][0]['title'], body: book['book_details'][0]['description'])
+    end
+    redirect_to posts_path
+  end
+
   # GET /posts/1
   # GET /posts/1.json
   def show

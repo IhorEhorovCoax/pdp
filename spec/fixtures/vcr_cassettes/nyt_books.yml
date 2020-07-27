@@ -1,0 +1,131 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.nytimes.com/svc/books/v3/lists.json?api-key=Gl45W6AShnATRDWJbygA1ZYGqetQYoQp&list=paperback-nonfiction
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 04 Jul 2020 14:33:16 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Accept-Ranges:
+      - bytes
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      X-Served-By:
+      - cache-dca17728-DCA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1593873196.414536,VS0,VE29
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Content-Type, X-Forwarded-For, X-Prototype-Version, X-Requested-With
+      Access-Control-Expose-Headers:
+      - Content-Length, X-JSON
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","copyright":"Copyright (c) 2020 The New York Times Company.  All
+        Rights Reserved.","num_results":15,"last_modified":"2020-07-01T23:39:01-04:00","results":[{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":1,"rank_last_week":1,"weeks_on_list":95,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/White-Fragility-People-About-Racism\/dp\/0807047414?tag=NYTBS-20","isbns":[{"isbn10":"0807047414","isbn13":"9780807047415"},{"isbn10":"0807047422","isbn13":"9780807047422"},{"isbn10":"197492341X","isbn13":"9781974923410"},{"isbn10":"1974923401","isbn13":"9781974923403"}],"book_details":[{"title":"WHITE
+        FRAGILITY","description":"Historical and cultural analyses on what causes
+        defensive moves by white people and how this inhibits cross-racial dialogue.","contributor":"by
+        Robin DiAngelo","author":"Robin DiAngelo","contributor_note":"","price":0,"age_group":"","publisher":"Beacon","primary_isbn13":"9780807047415","primary_isbn10":"0807047414"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":2,"rank_last_week":5,"weeks_on_list":6,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/Stamped-Beginning-Definitive-History-National\/dp\/1568584636?tag=NYTBS-20","isbns":[{"isbn10":"1568584636","isbn13":"9781568584638"},{"isbn10":"1568585985","isbn13":"9781568585987"},{"isbn10":"1568584644","isbn13":"9781568584645"}],"book_details":[{"title":"STAMPED
+        FROM THE BEGINNING","description":"Winner of the 2016 National Book Award
+        for nonfiction. A look at anti-Black racist ideas and their effect on the
+        course of American history.","contributor":"by Ibram X. Kendi","author":"Ibram
+        X Kendi","contributor_note":"","price":0,"age_group":"","publisher":"Bold
+        Type","primary_isbn13":"9781568585987","primary_isbn10":"1568585985"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":3,"rank_last_week":2,"weeks_on_list":6,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/You-Want-Talk-About-Race-ebook\/dp\/B073P53DVL?tag=NYTBS-20","isbns":[{"isbn10":"1580056784","isbn13":"9781580056786"},{"isbn10":"1580056776","isbn13":"9781580056779"},{"isbn10":"1580058825","isbn13":"9781580058827"},{"isbn10":"1541619226","isbn13":"9781541619227"},{"isbn10":"1538475278","isbn13":"9781538475270"},{"isbn10":"153847526X","isbn13":"9781538475263"},{"isbn10":"1538475286","isbn13":"9781538475287"}],"book_details":[{"title":"SO
+        YOU WANT TO TALK ABOUT RACE","description":"A look at the contemporary racial
+        landscape of the United States.","contributor":"by Ijeoma Oluo","author":"Ijeoma
+        Oluo","contributor_note":"","price":0,"age_group":"","publisher":"Seal","primary_isbn13":"9781580058827","primary_isbn10":"1580058825"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":4,"rank_last_week":4,"weeks_on_list":9,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/Color-Law-Forgotten-Government-Segregated\/dp\/1631494538?tag=NYTBS-20","isbns":[{"isbn10":"1631494538","isbn13":"9781631494536"},{"isbn10":"1631492861","isbn13":"9781631492860"},{"isbn10":"1631492853","isbn13":"9781631492853"}],"book_details":[{"title":"THE
+        COLOR OF LAW","description":"A case for how the American government abetted
+        racial segregation in metropolitan areas across the country.","contributor":"by
+        Richard Rothstein","author":"Richard Rothstein","contributor_note":"","price":0,"age_group":"","publisher":"Liveright","primary_isbn13":"9781631494536","primary_isbn10":"1631494538"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":5,"rank_last_week":6,"weeks_on_list":211,"asterisk":0,"dagger":0,"amazon_product_url":"http:\/\/www.amazon.com\/Just-Mercy-Story-Justice-Redemption-ebook\/dp\/B00JYWVYLY?tag=NYTBS-20","isbns":[{"isbn10":"0812994523","isbn13":"9780812994520"},{"isbn10":"0553550608","isbn13":"9780553550603"},{"isbn10":"1925113574","isbn13":"9781925113570"},{"isbn10":"081298496X","isbn13":"9780812984965"},{"isbn10":"0593133935","isbn13":"9780593133934"}],"book_details":[{"title":"JUST
+        MERCY","description":"A civil rights lawyer and MacArthur grant recipient\u2019s
+        memoir of his decades of work to free innocent people condemned to death.","contributor":"by
+        Bryan Stevenson","author":"Bryan Stevenson","contributor_note":"","price":0,"age_group":"","publisher":"Spiegel
+        & Grau","primary_isbn13":"9780812984965","primary_isbn10":"081298496X"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"https:\/\/www.nytimes.com\/2014\/10\/19\/books\/review\/just-mercy-by-bryan-stevenson.html","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":6,"rank_last_week":7,"weeks_on_list":192,"asterisk":0,"dagger":0,"amazon_product_url":"http:\/\/www.amazon.com\/The-New-Crow-Incarceration-Colorblindness\/dp\/1595586431?tag=NYTBS-20","isbns":[{"isbn10":"1595586431","isbn13":"9781595586438"},{"isbn10":"1595581030","isbn13":"9781595581037"},{"isbn10":"1595588191","isbn13":"9781595588197"},{"isbn10":"1595585303","isbn13":"9781595585301"},{"isbn10":"1501260235","isbn13":"9781501260230"},{"isbn10":"1620971933","isbn13":"9781620971932"},{"isbn10":"1620975459","isbn13":"9781620975459"},{"isbn10":"1464048258","isbn13":"9781464048258"}],"book_details":[{"title":"THE
+        NEW JIM CROW","description":"A law professor on the \u201cwar on drugs\u201d
+        and its role in the disproportionate incarceration of Black men.","contributor":"by
+        Michelle Alexander","author":"Michelle Alexander","contributor_note":"","price":0,"age_group":"","publisher":"New
+        Press","primary_isbn13":"9781620971932","primary_isbn10":"1620971933"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":7,"rank_last_week":3,"weeks_on_list":4,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/dp\/0465060684?tag=NYTBSREV-20&tag=NYTBS-20","isbns":[{"isbn10":"0465060684","isbn13":"9780465060689"}],"book_details":[{"title":"WHY
+        ARE ALL THE BLACK KIDS SITTING TOGETHER IN THE CAFETERIA?","description":"The
+        president emerita of Spelman College examines whether self-segregation is
+        a problem or a coping strategy.","contributor":"by Beverly Daniel Tatum","author":"Beverly
+        Daniel Tatum","contributor_note":"","price":0,"age_group":"","publisher":"Basic","primary_isbn13":"9780465060689","primary_isbn10":"0465060684"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":8,"rank_last_week":15,"weeks_on_list":27,"asterisk":0,"dagger":0,"amazon_product_url":"http:\/\/www.amazon.com\/The-Warmth-Other-Suns-Migration-ebook\/dp\/B003EY7JGM?tag=NYTBS-20","isbns":[{"isbn10":"0679444327","isbn13":"9780679444329"},{"isbn10":"0679604073","isbn13":"9780679604075"},{"isbn10":"0679763880","isbn13":"9780679763888"},{"isbn10":"1491545429","isbn13":"9781491545423"},{"isbn10":"1455814210","isbn13":"9781455814213"},{"isbn10":"1469233010","isbn13":"9781469233017"}],"book_details":[{"title":"THE
+        WARMTH OF OTHER SUNS","description":"An account of the Great Migration of
+        1915-70, in which six million African-Americans abandoned the South.","contributor":"by
+        Isabel Wilkerson","author":"Isabel Wilkerson","contributor_note":"","price":0,"age_group":"","publisher":"Vintage","primary_isbn13":"9780679763888","primary_isbn10":"0679763880"}],"reviews":[{"book_review_link":"https:\/\/www.nytimes.com\/2010\/08\/31\/books\/31book.html","first_chapter_link":"","sunday_review_link":"https:\/\/www.nytimes.com\/2010\/09\/05\/books\/review\/Oshinsky-t.html","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":9,"rank_last_week":8,"weeks_on_list":72,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/Born-Crime-Stories-African-Childhood-ebook\/dp\/B01DHWACVY?tag=NYTBS-20","isbns":[{"isbn10":"0399588175","isbn13":"9780399588174"},{"isbn10":"0399588183","isbn13":"9780399588181"},{"isbn10":"1531865038","isbn13":"9781531865030"},{"isbn10":"1531865046","isbn13":"9781531865047"},{"isbn10":"0399588191","isbn13":"9780399588198"}],"book_details":[{"title":"BORN
+        A CRIME","description":"A memoir about growing up biracial in apartheid South
+        Africa by the host of \u201cThe Daily Show.\u201d","contributor":"by Trevor
+        Noah","author":"Trevor Noah","contributor_note":"","price":0,"age_group":"","publisher":"Spiegel
+        & Grau","primary_isbn13":"9780399588198","primary_isbn10":"0399588191"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":10,"rank_last_week":9,"weeks_on_list":5,"asterisk":0,"dagger":0,"amazon_product_url":"http:\/\/www.amazon.com\/White-Rage-Unspoken-Racial-Divide\/dp\/1632864126?tag=NYTBS-20","isbns":[{"isbn10":"1632864126","isbn13":"9781632864123"},{"isbn10":"1632864134","isbn13":"9781632864130"}],"book_details":[{"title":"WHITE
+        RAGE","description":"A historian documents a long timeline and pattern in
+        which social, legal and economic advances for African-Americans have been
+        countered with systemic and deliberate opposition.","contributor":"by Carol
+        Anderson","author":"Carol Anderson","contributor_note":"","price":0,"age_group":"","publisher":"Bloomsbury","primary_isbn13":"9781632864130","primary_isbn10":"1632864134"}],"reviews":[{"book_review_link":"https:\/\/www.nytimes.com\/2016\/06\/26\/books\/review\/white-rage-by-carol-anderson.html","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":11,"rank_last_week":11,"weeks_on_list":88,"asterisk":0,"dagger":0,"amazon_product_url":"http:\/\/www.amazon.com\/The-Body-Keeps-Score-Healing\/dp\/0670785938?tag=NYTBS-20","isbns":[{"isbn10":"0670785938","isbn13":"9780670785933"},{"isbn10":"0143127748","isbn13":"9780143127741"},{"isbn10":"1469092352","isbn13":"9781469092355"}],"book_details":[{"title":"THE
+        BODY KEEPS THE SCORE","description":"How trauma affects the body and mind,
+        and innovative treatments for recovery.","contributor":"by Bessel van der
+        Kolk","author":"Bessel van der Kolk","contributor_note":"","price":0,"age_group":"","publisher":"Penguin","primary_isbn13":"9780143127741","primary_isbn10":"0143127748"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":12,"rank_last_week":0,"weeks_on_list":2,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/My-Grandmothers-Hands-Racialized-Pathway\/dp\/1942094477?tag=NYTBS-20","isbns":[{"isbn10":"1942094477","isbn13":"9781942094470"}],"book_details":[{"title":"MY
+        GRANDMOTHER''S HANDS","description":"A therapist who specializes in trauma,
+        body-centered psychotherapy and violence prevention explains racism''s effect
+        on the body.","contributor":"by Resmaa Menakem","author":"Resmaa Menakem","contributor_note":"","price":0,"age_group":"","publisher":"Central
+        Recovery","primary_isbn13":"9781942094470","primary_isbn10":"1942094477"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":13,"rank_last_week":13,"weeks_on_list":3,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/dp\/0310113601?tag=NYTBSREV-20&tag=NYTBS-20","isbns":[{"isbn10":"0310113601","isbn13":"9780310113607"}],"book_details":[{"title":"THE
+        COLOR OF COMPROMISE","description":"A history of race from America''s early
+        colonial days through to the Black Lives Matter movement and a call for a
+        more racially unified church.","contributor":"by Jemar Tisby","author":"Jemar
+        Tis","contributor_note":"","price":0,"age_group":"","publisher":"Zondervan
+        Reflective","primary_isbn13":"9780310113607","primary_isbn10":"0310113601"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":14,"rank_last_week":0,"weeks_on_list":108,"asterisk":0,"dagger":0,"amazon_product_url":"http:\/\/www.amazon.com\/Sapiens-A-Brief-History-Humankind-ebook\/dp\/B00ICN066A?tag=NYTBS-20","isbns":[{"isbn10":"0062316095","isbn13":"9780062316097"},{"isbn10":"0062316109","isbn13":"9780062316103"},{"isbn10":"0062796232","isbn13":"9780062796233"},{"isbn10":"1494576902","isbn13":"9781494576905"},{"isbn10":"0062316117","isbn13":"9780062316110"},{"isbn10":"1494506904","isbn13":"9781494506902"},{"isbn10":"1494556901","isbn13":"9781494556907"},{"isbn10":"1473523788","isbn13":"9781473523784"},{"isbn10":"1538456583","isbn13":"9781538456583"},{"isbn10":"1538456605","isbn13":"9781538456606"}],"book_details":[{"title":"SAPIENS","description":"How
+        Homo sapiens became Earth\u2019s dominant species.","contributor":"by Yuval
+        Noah Harari","author":"Yuval Noah Harari","contributor_note":"","price":0,"age_group":"","publisher":"Harper
+        Perennial","primary_isbn13":"9780062316110","primary_isbn10":"0062316117"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]},{"list_name":"Paperback
+        Nonfiction","display_name":"Paperback Nonfiction","bestsellers_date":"2020-06-27","published_date":"2020-07-12","rank":15,"rank_last_week":0,"weeks_on_list":15,"asterisk":0,"dagger":0,"amazon_product_url":"https:\/\/www.amazon.com\/Braiding-Sweetgrass-Indigenous-Scientific-Knowledge\/dp\/1571313567?tag=NYTBS-20","isbns":[{"isbn10":"1571313567","isbn13":"9781571313560"}],"book_details":[{"title":"BRAIDING
+        SWEETGRASS","description":"A botanist and member of the Citizen Potawatomi
+        Nation espouses having an understanding and appreciation of plants and animals.","contributor":"by
+        Robin Wall Kimmerer","author":"Robin Wall Kimmerer","contributor_note":"","price":0,"age_group":"","publisher":"Milkweed
+        Editions","primary_isbn13":"9781571313560","primary_isbn10":"1571313567"}],"reviews":[{"book_review_link":"","first_chapter_link":"","sunday_review_link":"","article_chapter_link":""}]}]}'
+  recorded_at: Sat, 04 Jul 2020 14:33:16 GMT
+recorded_with: VCR 6.0.0
